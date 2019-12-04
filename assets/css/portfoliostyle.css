@@ -1,13 +1,8 @@
-* {
-    background-color: "https://www.toptal.com/designers/subtlepatterns/checkerboard-cross-pattern/";
-    
+html, body{
+    margin:0;
+    padding:0;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
 
 header {
     position: fixed;
@@ -77,9 +72,8 @@ header {
     width: 960px;
     align-content: center;
     border: 2px solid lightgrey;
-    
+    overflow: auto;
 }
-
 
 h1 {    
     width: 900px;
@@ -92,58 +86,45 @@ h1 {
     border-bottom: 2px solid #dddddd;
     padding-bottom: 20px;
 }
-img {
+
+.games {
+    height:100%;
+    width: 960px;
+
+}
+#game1, img {
     float: left;
-    width:200px;
-    height:200px;
-    padding: 20px;
+    height:100px;
+    width: 100px;    
 
 }
 
-#aboutme-content {
-    clear: both;
-    background-color: white;
-    line-height: 25px;
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    padding: 30px;
+#game2 {
+    float: left;
+}
     
+#game3 {
+    clear: both;
+    float: left;
 }
+
+#game4 {
+    float: left;
+}
+
+#game5 {
+    clear: both;
+    float: left;
+}
+
+
 footer {
-    position: fixed;
+    position:sticky;
     bottom: 0;
     left:0;
     width: 100%;
-    height: 50px;
+    height: 100%;
     background-color: grey;
     border-top: 8px solid #4aaaa5;
     margin-top: -50px;
-    text-align: center;
-
 }
-
-
-
-/*  Colors (**Pro Tip:** Use the [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) Chrome extension to find the colors that are used on webpages.)
-   * Teal color (used for headings and backgrounds): `#4aaaa5`
-   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
-   * Main header background color: `#ffffff`
-   * Main header border color: `#cccccc`
-   * Footer background color: `#666666`
-   * Main content background color: `#ffffff`
-   * Main content border color: `#dddddd`
-
-* Fonts:
-   * For heading fonts use `font-family: 'Georgia', Times, 'Times New Roman', serif;`
-   * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`
-
-* Profile image in `index.html`:
-   * Use a picture of yourself.
-
-* Portfolio images:
-   * Save the images to your `images` folder.
-
-* Background images:
-   * The background pattern used was found on [Subtle Patterns](https://subtlepatterns.com/). You can browse through that site and use whichever pattern you like.
-
-* Dimensions:
-   * The entire content and the main section content area is `960px` wide. */
