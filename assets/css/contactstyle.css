@@ -67,13 +67,14 @@ header {
 
 .mainbody {
     clear:both;
+    margin: 7% 0 0 10%;
     background-color:#ffffff;
     color: black;
     width: 960px;
     align-content: center;
     border: 2px solid lightgrey;
     overflow: auto;
-    margin: 10% 0;
+    height: 575px;
 }
 
 h1 {    
@@ -87,15 +88,30 @@ h1 {
     border-bottom: 2px solid #dddddd;
     padding-bottom: 20px;
 }
+.contactheader {
+    clear:both;
+
+}
 
 .contact {
-    height: 100%;
     width: 960px;
+    padding: 0 20px;
 }
 
 #name {
     border: solid grey;
+    width: 910px;
 
+}
+#email {
+    border:solid;
+    width: 910px;
+}
+
+#message {
+    width: 910px;
+    border: solid;
+    height: 200px;
 }
 
 footer {
