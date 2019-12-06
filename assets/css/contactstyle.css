@@ -104,13 +104,13 @@ h1 {
 
 }
 #email {
-    border:solid;
+    border: solid grey;
     width: 910px;
 }
 
 #message {
     width: 910px;
-    border: solid;
+    border: solid grey;
     height: 200px;
 }
 
